@@ -375,6 +375,12 @@ header .sesi-logo img {
     }
     .nacionalismo .info{
         display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 50px;
+    }
+    .nacionalismo .info2{
+        display: flex;
         flex-direction: column-reverse;
         justify-content: space-around;
         margin-bottom: 50px;
