@@ -286,9 +286,12 @@ header .sesi-logo img {
 
 
 @media (max-width: 800px){
-
+    *{
+        box-sizing: border-box;
+    }
     body{
         overflow-x: hidden;
+        max-width: 100%;
     }
     header{
         padding: 4px 16px;
