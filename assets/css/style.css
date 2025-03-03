@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins';
+    font-weight: 600;
+}
+
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 50px;
+    display: flex;
+    z-index: 100;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .sesi-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .sesi-logo img {
+    width: 100px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.navigation ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation ul li a {
+    color: #125909;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    background-color: #125909;
+    height: 3px;
+    width: 25px;
+    margin: 4px;
+    border-radius: 3px;
+}
+
+
+.parallax{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, #ffd000, #ff7b00);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;   
+}
+.parallax .nuv-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+    margin-top: 250px;
+}
+.parallax h2{
+    font-size: 140px;
+    font-weight: 900;
+    position: absolute;
+    margin-top: 50px;
+    top: 0;
+    color: #125909;
+}
+.parallax #img{
+    position: absolute;
+    width: 600px;
+    left: 1;
+}
+.parallax img#nuv-left{
+    transform: translateX(-800px);
+}
+.parallax img#nuv-right{
+    transform: translateX(800px);
+}
+.parallax .vermais{
+    padding: 12px 120px;
+    background-color: #125909;
+    z-index: 100;
+    position: relative;
+    margin-bottom: -400px;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+.nacionalismo{
+    background-color: #fff;
+    position: relative;
+    padding: 0 120px;
+}
+.nacionalismo .tit{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.nacionalismo .tit h1{
+    font-size: 140px;
+    font-family:'poppins';
+    font-weight: 900;
+    color: #125909;
+    transition: all 1s;
+    margin: 0;
+    position: relative;
+}
+.nacionalismo .tit h1:hover{
+    color: #ff7b00;
+}
+.nacionalismo .tit h3{
+    font-size: 24px;
+    top: 0;
+    margin-top: -80px;
+}
+.nacionalismo img#arara{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    pointer-events: none;
+    transform: translateX(-200px);
+    transform: translateY(100px);
+}
+.nacionalismo .info{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 250px;
+}
+.nacionalismo .info .text{
+    width: 500px;
+    display: grid;
+    gap: 5rem;
+}
+.nacionalismo .info .text .topics p{
+    color: #474747;
+}
+.nacionalismo .info img{
+    width: 450px;
+    height: 450px;
+}
+.info .box{
+    display: flex;
+    height: 700px;
+}
+.info .box .line{
+    width: 3px;
+    height: 100%;
+    background-color: #000000;
+    border-radius: 4px;
+}
+.info .box .content{
+    display: grid;
+    margin: 0;
+    justify-content: space-around;
+}
+.info .box .content h1{
+    color: #ff7b00;
+    transform: translateX(48px);
+}
+.info .box .content .topics-star{
+    display: flex;
+    align-items: center;
+}
+.info .box .content .topics-star .star{
+    width: 50px;
+    height: 50px;
+    background-image:url(/assets/image/star.svg);
+    background-size: cover;
+    transform: translateX(-26.5px);
+    border: 5px;
+    border-color: #fff;
+
+}
+.info .box .content .topics-star p{
+    width: 400px;
+    font-size: 14px;
+ }
+
+.nacionalismo .caracteristicas{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    margin-bottom: 200px;
+    
+}
+
+.nacionalismo .caracteristicas .box{
+    width: 500px;
+    padding: 12px;
+    border: #474747 2px solid;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.analise{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.analise .tit{
+    font-size: 140px;
+    font-weight: 700;
+    color: #125909;
+    transform: translateY(-80px);
+}
+.analise h2{
+    transform: translateY(-200px);
+}
+.analise .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.analise .content h1{
+    text-align: center;
+    font-family: 'Playfair';
+    font-weight: 400;
+    transform: translateY(-180px);
+    color: #474747;
+}
+.analise .content a{
+    padding: 8px 200px;
+    background-color: #125909;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 8px;
+    transform: translateY(-140px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 800px){
+
+    header{
+        padding: 4px 16px;
+    }
+    .navigation ul {
+        display: none;
+        flex-direction: column;
+        gap: 0;
+        background:transparent;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+    }
+    
+    .navigation ul.show {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .navigation ul li {
+        border-bottom: 1px solid #125909;
+    }
+    .parallax .nuv-img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 700px;
+        pointer-events: none;
+        margin-top: 450px;
+    }
+    .parallax #img{
+        position: absolute;
+        width: 400px;
+        left: 1;
+    
+    }
+    .parallax h2{
+        font-size: 52px;
+        font-weight: 900;
+        position: absolute;
+        margin-top: 140px;
+        top: 0;
+        color: #125909;
+    }
+    .parallax img#nuv-left{
+        transform: translateX(-500px);
+    }
+    .parallax img#nuv-right{
+        transform: translateX(300px);
+    }
+    .nacionalismo img#arara{
+        width:100px ;
+        transform: translateX(-200px);
+    }
+    .nacionalismo{
+        background-color: #fff;
+        position: relative;
+        padding: 0 24px;
+    }
+    .nacionalismo .tit{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .nacionalismo .tit h1{
+        font-size: 52px;
+        font-family:'poppins';
+        font-weight: 900;
+        color: #125909;
+        transition: all 1s;
+        margin: 0;
+        position: relative;
+    }
+    .nacionalismo .tit h1:hover{
+        color: #ff7b00;
+    }
+    .nacionalismo .tit h3{
+        font-size: 14px;
+        top: 0;
+        margin-top: -20px;
+    }
+    .nacionalismo .info{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        margin-bottom: 50px;
+    }
+    .nacionalismo .info .text{
+        width: 350px;
+        display: grid;
+        font-size: 12px;
+        gap: 2rem;
+    }
+    .nacionalismo .info .text .topics p{
+        color: #474747;
+    }
+    .nacionalismo .info img{
+        margin-top: 100px;
+        width: 350px;
+        height: 350px;
+    }
+    .info .box{
+        display: flex;
+        height: 500px;
+    }
+    .info .box .line{
+        width: 3px;
+        height: 100%;
+        background-color: #000000;
+        border-radius: 4px;
+    }
+    .info .box .content{
+        display: grid;
+        margin: 0;
+        justify-content: space-around;
+    }
+    .info .box .content h1{
+        color: #ff7b00;
+        font-size: 20px;
+        transform: translateX(48px);
+    }
+    .info .box .content .topics-star{
+        display: flex;
+        align-items: center;
+    }
+    .info .box .content .topics-star .star{
+        width: 50px;
+        height: 50px;
+        background-image:url(/assets/image/star.svg);
+        background-size: cover;
+        transform: translateX(-26.5px);
+        border: 5px;
+        border-color: #fff;
+    
+    }
+    .info .box .content .topics-star p{
+        width: 300px;
+        font-size: 12px;
+     }
+    
+    .nacionalismo .caracteristicas{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 3rem;
+        margin-bottom: 200px;
+        
+    }
+    
+    .nacionalismo .caracteristicas .box{
+        width: 350px;
+        padding: 12px;
+        border: #474747 2px solid;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .analise{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .analise .tit{
+        font-size: 40px;
+        font-weight: 700;
+        color: #125909;
+        transform: translateY(-20px);
+    }
+    .analise h2{
+        transform: translateY(-70px);
+    }
+    .analise .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .analise .content h1{
+        text-align: center;
+        font-family: 'Playfair';
+        font-weight: 400;
+        transform: translateY(-60px);
+        color: #474747;
+    }
+    .analise .content a{
+        padding: 8px 40px;
+        background-color: #125909;
+        text-decoration: none;
+        color: #fff;
+        border-radius: 8px;
+        transform: translateY(-40px);
+    }
+
+}
