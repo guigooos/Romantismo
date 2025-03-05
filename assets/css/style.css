@@ -273,6 +273,149 @@ header .sesi-logo img {
     border-radius: 8px;
     transform: translateY(-140px);
 }
+.bibli{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: #090b54;
+}
+.bibli h1{
+    font-size: 140px;
+    font-family: 'inter';
+    font-weight: 800;
+    color: #fff;
+    margin: 20px;
+}
+.bibli .autores{
+    width: 100vw;
+    display: grid;
+    padding: 40px;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #fff;
+    gap: 2rem;
+   
+
+}
+.bibli .autores .box{
+    display: flex;
+    margin: 28px;
+    width: 500px;
+    gap: 1.5rem;
+    border: #474747 1PX solid;
+    border-radius: 16px;
+    padding: 8px;
+
+}
+.bibli .autores .box img{
+    width: 90px;
+    height: 130px;
+    margin-right: 40px;
+}
+.bibli .autores .box h1{
+    font-size: 21px;
+    color: #090b54;
+}
+.bibli .autores .box p{
+    font-size: 12px;
+    color: #000000;
+}
+.bibli .autores .box ul li{
+    font-size: 12px;
+    color: #000000;
+    list-style:none;
+}
+
+
+
+.Ultrarromantismo{
+    background-color: #030303;
+    color: #fff;
+}
+.Ultrarromantismo .intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/assets/image/Rio.jpg);
+    opacity: 0.7;
+    background-size: cover;
+    color: #fff;
+    padding: 20px 0;
+}
+.Ultrarromantismo .intro h1{
+    font-size: 120px;
+    font-weight: 800;
+    opacity: 1;
+    color: #000000;
+}
+.Ultrarromantismo .intro p{
+    color: #000000;
+}
+.Ultrarromantismo .analise .tit{
+    font-size: 80px;
+    color: #460404;
+    transform: translateY(-36px);
+}
+.Ultrarromantismo .analise h2{
+    transform: translateY(-72px);
+    color: #fff;
+}
+.Ultrarromantismo .analise .content h1{
+    color: #fff;
+    transform: translateY(-52px);
+}
+.Ultrarromantismo .analise h3{
+    color: #fff;
+}
+
+
+.Ultrarromantismo .content{
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.Ultrarromantismo .content .text {
+
+    width: 500px;
+    display: grid;
+    gap: 3rem;
+}
+.Ultrarromantismo .content img{
+    width: 400px;
+    height: 500px;
+}
+.carc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.carc .tit{
+    font-size: 80px;
+}
+.carc .content {
+    width: 100vw;
+    display: grid;
+    padding: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+.carc .content .box{
+    margin: 28px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    gap: 1rem;
+    border: #ffffff 1PX solid;
+    border-radius: 16px;
+    padding: 8px;
+    justify-content: center;
+}
+.carc .content .box p{
+    font-size: 14px;
+}
 
 
 
@@ -280,6 +423,78 @@ header .sesi-logo img {
 
 
 
+.Condoreira{
+    background-color: #1E2E1D;
+    color: #fff;
+}
+.Condoreira .tit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+        font-size: 120px;
+    }
+}
+.Condoreira .content{
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.Condoreira .content .text {
+    h1{
+        color: #E3D6BD;
+    }
+    width: 500px;
+    display: grid;
+}
+.Condoreira .content img{
+    width: 500px;
+    height: 500px;
+}
+.Condoreira.content .Img{
+    width: 242.33px;
+    height: 1257px;
+}
+
+
+
+
+.Condoreira .analise{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Condoreira .analise .tit{
+    font-size: 140px;
+    font-weight: 700;
+    color: #125909;
+    transform: translateY(-44px);
+}
+.Condoreira .analise h2{
+    transform: translateY(-100px);
+}
+.Condoreira .analise .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Condoreira .analise .content h1{
+    text-align: center;
+    font-family: 'Playfair';
+    font-weight: 400;
+    transform: translateY(-100px);
+    color: #ffffff;
+}
+.Condoreira .analise .content a{
+    padding: 8px 200px;
+    background-color: #125909;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 8px;
+    transform: translateY(-100px);
+}
 
 
 
@@ -495,5 +710,248 @@ header .sesi-logo img {
         border-radius: 8px;
         transform: translateY(-40px);
     }
+
+    .bibli h1{
+        font-size: 60px;
+
+    }
+    .bibli .autores{
+        width: 100vw;
+        display: grid;
+        padding: 20px;
+        grid-template-columns: repeat(1, 1fr);
+        background-color: #fff;
+        gap: 2rem;
+       
+    
+    }
+    .bibli .autores .box{
+        display: grid;
+        padding-left: 24px;
+        margin: 28px;
+        width: 300px;
+        gap: 1.5rem;
+        border: #474747 1PX solid;
+        border-radius: 16px;
+        padding: 8px;
+    
+    }
+    .bibli .autores .box img{
+        width: 90px;
+        height: 130px;
+        margin-right: 40px;
+    }
+    .bibli .autores .box h1{
+        font-size: 21px;
+        color: #090b54;
+    }
+    .bibli .autores .box p{
+        font-size: 12px;
+        color: #000000;
+    }
+    .bibli .autores .box ul li{
+        font-size: 12px;
+        color: #000000;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .Ultrarromantismo{
+        background-color: #030303;
+        color: #fff;
+    }
+    .Ultrarromantismo .intro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url(/assets/image/Rio.jpg);
+        opacity: 0.7;
+        background-size: cover;
+        color: #fff;
+        padding: 20px 0;
+    }
+    .Ultrarromantismo .intro h1{
+        font-size: 40px;
+        font-weight: 800;
+        opacity: 1;
+        color: #000000;
+    }
+    .Ultrarromantismo .intro p{
+        color: #000000;
+    }
+    .Ultrarromantismo .analise .tit{
+        font-size: 28px;
+        color: #460404;
+        transform: translateY(-8px);
+    }
+    .Ultrarromantismo .analise h2{
+        transform: translateY(-16px);
+        color: #fff;
+    }
+    .Ultrarromantismo .analise .content h1{
+        color: #fff;
+        transform: translateY(-52px);
+        font-size: 20px;
+    }
+    .Ultrarromantismo .analise h3{
+        color: #fff;
+    }
+    
+    
+    .Ultrarromantismo .content{
+        padding: 20px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .Ultrarromantismo .content .text {
+    
+        width: 300px;
+        display: grid;
+        gap: 3rem;
+    }
+    .Ultrarromantismo .content img{
+        width: 300px;
+        height: 350px;
+    }
+    .carc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .carc .tit{
+        font-size: 28px;
+    }
+    .carc .content {
+        width: 100vw;
+        display: grid;
+        transform: translateX(-24px);
+        padding: 40px;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .carc .content .box{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        gap: 1rem;
+        border: #ffffff 1PX solid;
+        border-radius: 16px;
+        padding: 8px;
+        justify-content: center;
+    }
+    .carc .content .box p{
+        font-size: 14px;
+    }
+
+
+
+
+
+
+
+
+    .Condoreira{
+        background-color: #1E2E1D;
+        color: #fff;
+    }
+    .Condoreira .tit{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1{
+            font-size: 60px;
+        }
+    }
+    .Condoreira .content{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .Condoreira .cont2{
+        padding: 10px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .Condoreira .content .text {
+        h1{
+            color: #E3D6BD;
+        }
+        width: 300px;
+        display: grid;
+    }
+
+    .Condoreira .content .Img{
+        width: 400px;
+        height: 800px;
+    }
+
+    
+    
+    
+    .Condoreira .analise{
+        margin: 50px 0;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Condoreira .analise .tit{
+        font-size: 40px;
+        font-weight: 700;
+        color: #125909;
+        transform: translateY(-20px);
+    }
+    .Condoreira .analise h2{
+        transform: translateY(-20px);
+    }
+    .Condoreira .analise .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Condoreira .analise .content h1{
+        text-align: center;
+        font-family: 'Playfair';
+        font-weight: 400;
+        transform: translateY(-20px);
+        font-size: 12px;
+        color: #ffffff;
+    }
+    .Condoreira .analise .content a{
+        padding: 8px 40px;
+        background-color: #125909;
+        text-decoration: none;
+        color: #fff;
+        border-radius: 8px;
+        transform: translateY(-20px);
+    }
+    
+    
+
+
+
+
+
+    
+    
 
 }
