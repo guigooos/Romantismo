@@ -496,6 +496,15 @@ header .sesi-logo img {
     transform: translateY(-100px);
 }
 
+footer{
+    background-color: #125909;
+    color: #fff;
+    padding: 40px;
+}
+footer ul li{
+    list-style: none;
+}
+
 
 
 
