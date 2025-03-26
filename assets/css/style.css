@@ -505,6 +505,25 @@ footer ul li{
     list-style: none;
 }
 
+.analise-da-epoca{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+span{
+    color: #ff00d4;
+}
+
+
+
+}
+
+
+
+
+
+
+
 
 
 
@@ -908,9 +927,14 @@ footer ul li{
         display: grid;
     }
 
+    
+
     .Condoreira .content .Img{
         width: 400px;
         height: 800px;
+    }
+    .coooondor{
+        width: 400px;
     }
 
     
